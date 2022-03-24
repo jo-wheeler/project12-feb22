@@ -4,68 +4,27 @@
         <title>Document</title>
         <link rel="stylesheet" href="./styles.css" />
         <script src="./scripts.js" defer></script>
+        <style>
+            .flex {
+                display: flex;
+                flex-direction: column;
+            }
+            .grid {
+                display: grid;
+                grid-auto-flow: row;
+            }
+        </style>
     </head>
     <body>
-        <h1>homepage</h1>
-
-        <table class="my-table">
-            <caption>
-                my table
-            </caption>
-            <thead>
-                <tr class="thead">
-                    <th>apple</th>
-                    <th>kiwi</th>
-                    <th>orange</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>a</td>
-                    <td>b</td>
-                    <td>c</td>
-                </tr>
-                <tr>
-                    <td>d</td>
-                    <td>e</td>
-                    <td>f</td>
-                </tr>
-                <tr>
-                    <td>g</td>
-                    <td>h</td>
-                    <td>i</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>z</td>
-                    <td>y</td>
-                    <td>x</td>
-                </tr>
-            </tfoot>
-        </table>
-
-        <table>
-            <tr>
-                <th>one</th>
-                <th>two</th>
-                <th>three</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-        </table>
+        <section class="flex">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </section>
+        <section class="grid">
+            <span>a</span>
+            <span>b</span>
+            <span>c</span>
+        </section>
     </body>
 </html>
